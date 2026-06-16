@@ -1,0 +1,10 @@
+【利用API】
+Open-Meteo.comから名古屋の天気に関するデータを取得
+
+【関数の説明】
+・getWeather()
+    天気データのJSONを返す関数。APIを利用するため非同期処理であることに注意が必要。資料のものを改造。
+・showWeather(data)
+    getWeather()で取得したJSONをもとにDOM操作を行う関数。
+・codeToText(code)
+    天気コードに対応した文字列を返す関数。資料のものを利用。
